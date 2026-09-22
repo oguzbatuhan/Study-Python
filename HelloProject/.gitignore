@@ -1,0 +1,21 @@
+# Sanal Ortamlar (En önemlisi)
+.venv/
+venv/
+ENV/
+env/
+
+# Python Tarafından Oluşturulan Geçici Dosyalar ve Önbellekler
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE ve Editör Klasörleri (Kişisel ayarların depoya girmemesi için)
+.vscode/
+.idea/
+
+# Ortam Değişkenleri ve Gizli Bilgiler (API anahtarları vs.)
+.env
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db
